@@ -1,0 +1,38 @@
+.account{
+    background-color: white;
+    border: 2px solid black;
+    padding: 1rem;
+    position: absolute;
+    top: 30%;
+    /* height: 50vh; */
+    padding: 3rem;
+    color: black;
+    width: 100%;
+}
+input.form-control{
+    background-color: #E5E5E5;
+}
+.account-btn{
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+} 
+.account-login {
+    margin: 1rem;
+}
+.account-login a{
+    margin: 1rem;
+}
+p.account-text {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width:780px) {
+    .account{
+        display: none;
+    }
+}

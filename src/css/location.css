@@ -1,0 +1,41 @@
+
+.location {
+    margin-top: 10rem;
+    /* padding-right:5rem; */
+  }
+  
+  .location-one{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 0 0.5rem ;
+  }
+   
+  .location-data{
+    padding-top: 2rem;
+  }
+
+  .location-one-box  {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+.location-data {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.location-data img{
+
+    height: 20px;
+    width: 20px;
+    margin-right:0.5rem;
+}
+.location-one-box img {
+    margin-top: 0.3rem;
+}
+
+/* media quries */
+@media only screen and (max-width:768px) {
+  .location{
+    display: none;
+  }
+}
